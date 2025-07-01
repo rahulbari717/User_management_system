@@ -10,7 +10,8 @@ A modular User Management System written in C. This terminal-based application d
 
 ---
 
-🚀 Features
+## 🚀 Features
+
 📝 Register new users (username + password)
 
 🔐 Login with secure terminal password input
@@ -25,7 +26,8 @@ A modular User Management System written in C. This terminal-based application d
 
 ---
 
-📋 Requirements
+## 📋 Requirements
+
 GCC Compiler 4.8 or newer
 
 Make utility
@@ -36,36 +38,50 @@ POSIX terminal support (for password masking)
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
-<pre> User_Management_System/ ├── 📁 build/ # 🏗️ Compiled objects & executables │ ├── user_mgmt # Binary │ └── user_tests # Unit test binary ├── 📁 include/ # 📋 Header files │ ├── app.h │ ├── user.h │ └── utils.h ├── 📁 src/ # 💻 Source files │ ├── app.c │ ├── main.c │ ├── user.c │ └── utils.c ├── 📁 test/ # 🧪 Unit test file │ └── user_tests.c ├── Makefile # ⚙️ Build automation ├── LICENSE # 📜 MIT License └── README.md # 📖 This file </pre>
+<pre> 
+User_Management_System/ 
+├── 📁 build/ # 🏗️ Compiled objects & executables 
+│ ├── user_mgmt # Binary 
+│ └── user_tests # Unit test binary 
+├── 📁 include/ # 📋 Header files 
+│ ├── app.h 
+│ ├── user.h 
+│ └── utils.h 
+├── 📁 src/ # 💻 Source files 
+│ ├── app.c 
+│ ├── main.c 
+│ ├── user.c 
+│ └── utils.c 
+├── 📁 test/ # 🧪 Unit test file 
+│ └── user_tests.c 
+├── Makefile # ⚙️ Build automation 
+├── LICENSE # 📜 MIT License 
+└── README.md # 📖 This file 
+</pre>
 
 ---
 
-# Clone the repository
-
+```bash
+# 📥 Clone the repository
 git clone https://github.com/rahulbari717/User_Management_System.git
 cd User_Management_System
 
-# Clean previous builds
-
+# 🧹 Clean previous builds
 make clean
 
-# Compile the project
-
+# 🔨 Compile the project
 make
 
-# Run the program
-
+# 🚀 Run the program
 make run
 
-# Run unit tests
-
+# 🧪 Run unit tests
 make test
-
+```
 ---
-
-🔐 How It Works
+## 🔐 How It Works
 User launches the app using make run
 
 Main menu allows:
@@ -84,7 +100,8 @@ System supports up to 10 users stored in RAM
 
 ---
 
-🧪 Unit Tests
+## 🧪 Unit Tests
+
 Tested functionality includes:
 
 ✅ Credential matching (LoginUserStub)
@@ -97,7 +114,7 @@ Results are printed with ✔️ for success and ❌ for failure.
 
 ---
 
-🎯 Future Roadmap
+## 🎯 Future Roadmap
 
 🔐 Password hashing
 
@@ -105,19 +122,19 @@ Results are printed with ✔️ for success and ❌ for failure.
 
 ---
 
-📜 License
+## 📜 License
 This project is open-sourced under the MIT License. See LICENSE for details.
 
 ---
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 Built with ❤️ in a Linux terminal
 Created for learning, sharing, and writing clean embedded C code ✨
 Designed to demonstrate real-world programming concepts in C
 
 ---
 
-DM me if you have any questions! 💬
+## DM me if you have any questions! 💬
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-bari-embeddeddeveloper/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rahulbari717@gmail.com)
